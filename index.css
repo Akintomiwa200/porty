@@ -7,7 +7,7 @@ box-sizing: border-box;
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     background-color: black;
 }
 #navbar{
@@ -88,6 +88,16 @@ body {
     letter-spacing: -0.32px;
     color: #8B949E;
 }
+#container a{
+    padding: 10px 20px;
+    font-size: 2em;
+    text-decoration: none;
+    background-color: #30363D;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
 #line1 {
     position: relative;
     width: 0px;
@@ -105,6 +115,11 @@ body {
     bottom: 24px;
     background: linear-gradient(180deg, #56D364 0%, #2EA043 50%, #0D1117 100%);
     border-radius: 6px;
+}
+
+#img img{
+    width: 24vw; 
+    height:32vh;
 }
 
 #about{
@@ -184,26 +199,28 @@ body {
     border-radius: 15px;
     display: flex;
     align-items: center;
+    margin-top: -10em;
 }
 #flame h5{
-        width: 40vw;
-        text-align: justify;
-        margin: 4%;
-        height: 338px;
-        left: 2vw;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.4em;
-        line-height: 32px;
-        /* or 133% */
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
+    width: 40vw;
+    text-align: justify;
+    margin: 4%;
+    height: 338px;
+    left: 2vw;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4em;
+    line-height: 32px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 
 }
 #project {
-    margin-top: 20vh;
+    position: relative;
+    margin-top: 10em;
     width: 80vw;
     background: #161B22;
     height: 60vh;
@@ -319,6 +336,44 @@ body {
 }
 
 
+#contact{
+    width: 50vw;
+    background: #30363D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#contact h4{
+    font-weight: 400;
+    word-spacing: 3px;
+    font-size: 1.4em;
+}
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#link1, #link2, #link3{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2.2em;
+    top: 30%;
+    margin-left: 20px;
+    color: white;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+
+#maxcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 #footer{
     margin: 0;
@@ -326,24 +381,28 @@ body {
     display: flex;
     overflow: hidden;
     justify-content: center;
-}
-.fa-github{
     position: relative;
-    top: 10%;
+}
+#githubIcon{ 
+    color: white;
     left: 40%;
-    font-size: 30px;
+    gap: 20px;
+}
+#linkedinIcon{
+    left: 60%;
     color: white;
 }
-.fa-linkedin{
-    position: relative;
-    top: 10%;
-    left: 49%;
-}
-.fa{
+
+
+#githubIcon, #linkedinIcon{ 
+    position: absolute;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 2.4em;
+    top: 30%;
     color: white;
-    margin: 10px;
+    margin-top: 10px;
     border-radius: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+

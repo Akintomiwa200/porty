@@ -1,8 +1,6 @@
 
 
 
-
-
 function openGitHubProfile() {
 
     var githubUrl = 'https://github.com/akintomiwa200';
