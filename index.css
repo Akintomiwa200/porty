@@ -10,11 +10,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: black;
 }
-#nav{
-    position: absolute;
+#navbar{
+    margin-top: 20px;
     width: 80vw;
-    height: 80px;
-    top: 2vh;
+    height: 10vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -24,156 +23,140 @@ body {
     padding: 0 20px;
 }
 
-#nav h1{
+#navbar h1{
     color: white;
-    font-size: 32px;
+    font-size: 2em;
 }
 
-#nav a{
+#navbar a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.2em;
     margin: 0 20px;
 }
-
-
 /* Hero */
 #hero {
-    position: absolute;
-    width: 70vw;
-    height: 942px;
-    left: calc(50% - 1412px/2 + 21px);
-    top: 34px;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden;
 }
 
 #sam2 {
-
-    position: absolute;
-    left: 55.11%;
-    right: 4.98%;
-    top: 42.41%;
-    bottom: 81.03%;
+   position: relative;
+   top: -30%;
+   bottom: 20%;
+   left: 61%;
 }
 
 #sam111 {
-
-    position: absolute;
-    left: 80.62%;
-    right: 5.46%;
-    top: 21.18%;
-    bottom: 20.67%;
+    position: relative;
+    top: -74%;
+    bottom: 20%;
+    left: 40%;  
 }
 
-#left h1 {
-    position: absolute;
-    width: 932.31px;
-    height: 93px;
-    left: 52px;
-    top: 189px;
-
+#container h1 {
+    width: 70vw;
+    height: 30vh;
+    left: 5vh;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 5em;
     line-height: 100px;
     /* or 104% */
     display: flex;
     align-items: center;
     letter-spacing: -0.96px;
-
     color: #FFFFFF;
 }
 
-
-#left h3{
-    position: absolute;
-    height: 119px;
-    left: 55px;
+#container h3{
+    height: 20vh;
+    left: 5vh;
     right: 346.69px;
-    top: 332px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 44px;
-    /* or 138% */
     display: flex;
     align-items: center;
     letter-spacing: -0.32px;
     color: #8B949E;
 }
-
-
-
 #line1 {
-    position: absolute;
+    position: relative;
     width: 0px;
-    height: 321.04px;
-    left: calc(50% - 321.04px/2 - 490.48px);
-    top: calc(50% - 0px/2 + 106px);
+    height: 10vh;
+    top: -30%;
+    left: -40%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(360deg);
 }
 
-
-
-/* about */
-#about{
-    position: absolute;
-    width: 1434px;
-    height: 1637px;
-    left: 80px;
-    top: 1005px;
-    color: white;
-    background: #0D1117;  
+#line2{
+    margin-left: 10%;
+    width: 3px;
+    top: 47px;
+    bottom: 24px;
+    background: linear-gradient(180deg, #56D364 0%, #2EA043 50%, #0D1117 100%);
+    border-radius: 6px;
 }
 
+#about{
+    display: flex;
+}
+/* about */
+#abou{
+    width: 80vw;
+    height: 30vh;
+    color: white;
+    background: #0D1117; 
+    margin-left: 20%; 
+}
 /* About Me */
 #abou1 h1{
-    top: 100vh ;
     left: 50vh;
-    position: absolute;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 4em;
     line-height: 28px;
     /* or 58% */
     display: flex;
     align-items: center;
     letter-spacing: -0.24px;
     color: #7EE787; 
+    margin-left: 20%; 
 }
-
-
 /* Lorem ipsum dolor sit amet. consectetur adipiscing elit. Praesent imperdiet ante tortor, sit amet mollis erat placerat suscipit. Nulla lobortis et libero sit amet congue. */
 #abou1 h5 { 
-    top: 100vh;
-    position: absolute;
-    width: 904.34px;
-    height: 202px;
-    left: 459.5px;
+    width: 70vw;
+    height: 20vh;
+    left: 50vh;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2.1em;
     line-height: 52px;
     /* or 162% */
     display: flex;
     align-items: center;
     letter-spacing: -1.44px;
     color: #7EE787;
+    margin-left: 20%; 
 }
-
-
 #sample1{
 
     box-sizing: border-box;
-    position: absolute;
-    width: 1280px;
-    height: 597px;
+    width: 50vw;
+    height: 40vh;
     left: 20%;
-    top: 135vh;
+    margin-left: 20%;
     background: #161B22;
     border: 1px solid #30363D;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 70px 65px rgba(0, 0, 0, 0.18), 0px 30px 30px rgba(0, 0, 0, 0.14), 0px 15px 15px rgba(0, 0, 0, 0.12), 0px 10px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.06);
@@ -183,98 +166,184 @@ body {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.4em;
     text-align: justify;
     line-height: 32px;
 }
-
-
 /* Frame 1 */
 #flame  {
-    position: absolute;
+    position: relative;
     width: 45vw;
     height: 50vh;
-    left: 47vw;
-    top: 190vh;
+    left: 47%;
     background: #161B22;
     border-width: 1px 0px 0px 1px;
     border-style: solid;
     border-color: #6E7681;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-
+    display: flex;
+    align-items: center;
 }
-
-
 #flame h5{
-        position: absolute;
-        width: 690px;
+        width: 40vw;
+        text-align: justify;
+        margin: 4%;
         height: 338px;
-        left: 75px;
-        top: 74px;
+        left: 2vw;
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 1.4em;
         line-height: 32px;
         /* or 133% */
         display: flex;
         align-items: center;
-
         color: #FFFFFF;
 
 }
-
-
-
 #project {
-    position: absolute;
-    width: 30vw;
-    height: 40vh;
-    left: 0px;
-    top: 240vh;
-
-
-  
-
-      
+    margin-top: 20vh;
+    width: 80vw;
+    background: #161B22;
+    height: 60vh;
+    margin: auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 20px;  
 }
+#project h1{
+    font-size: 2.4em;
+    color: #FFB77C;
 
-
+}
 #project h3{
-    width: 978px;
-    height: 332px;
-
+    width: 70vw;
+    height: 30vh;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 32px;
-    /* or 100% */
     display: flex;
     align-items: center;
-
     color: #FFB77C;
-
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
 }
+#gme{
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    height: 80vh;
+}
+#cont2{
+    margin-top: 4%;
+    width: 30vw;
+    background: #161B22;
+    height: 43vh;  
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 20px;  
+}
+
+#cont3{
+    margin-top: 8%;
+    margin-left: 7vh;
+    width: 30vw;
+    background: #161B22;
+    height: 43vh;  
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;  
+    text-align: center;
+    border-radius: 20px;
+  
+}
+#content{
+    margin-top: 10vh;
+    width: 30vw;
+    background: #161B22;
+    height: 80vh;
+    margin-left: 4%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 20px; 
+}
+#content h1, #content2 h1{
+    font-size: 2.2em;
+    width: 80%;
+    color: white;
+}
+#content p, #content2 p{
+    font-size: 1.2em;
+    width: 80%;
+    color: #8B949E;
+}
+#content2{
+    color: white;
+    margin-top: -24vh;
+    width: 30vw;
+    background: #161B22;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 20px; 
+}
+#img3, #img4{
+    place-self: center;
+    background-color: #FFB77C;
+    margin: 2vh;
+    width: 24vw;
+    height: 32vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    border-radius: 20px;
+}
+#cont2 a, #cont3 a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
 
 
-/* Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet ante tortor, sit amet mollis erat placerat suscipit. Nulla lobortis et libero sit amet congue. Donec quis odio at augue imperdiet posuere. PLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent imperdiet ante tortor, sit amet mollis erat placerat suscipit. Nulla lobortis et libero sit amet congue. Donec quis odio at augue imperdiet posuere. Sed ullamcorper hendrerit auctor. In laoreet arcu maximus fringilla ornare. Sed quam leo, maximus a sodales scelerisque, lacinia vitae tortor. */
 
-
-
-
-
-
-
-
-
-
-
-
-
+#footer{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.fa-github{
+    position: relative;
+    top: 10%;
+    left: 40%;
+    font-size: 30px;
+    color: white;
+}
+.fa-linkedin{
+    position: relative;
+    top: 10%;
+    left: 49%;
+}
+.fa{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
