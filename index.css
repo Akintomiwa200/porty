@@ -9,6 +9,7 @@ body {
     padding: 0;
     font-family: 'Open Sans';
     background-color: black;
+
 }
 #navbar{
     margin-top: 20px;
@@ -22,10 +23,17 @@ body {
     border-radius: 20px;
     padding: 0 20px;
 }
-
+.fa-bars{
+    display: none;
+}
 #navbar h1{
     color: white;
     font-size: 2em;
+}
+
+h1 img{
+    height: 3em;
+    width: 3em;
 }
 
 #navbar a{
@@ -44,11 +52,11 @@ body {
     overflow: hidden;
 }
 
-#sam2 {
+#sam23 {
    position: relative;
-   top: -30%;
+   top: -20%;
    bottom: 20%;
-   left: 61%;
+   left: 55%;
 }
 
 #sam111 {
@@ -59,8 +67,8 @@ body {
 }
 
 #container h1 {
-    width: 70vw;
-    height: 30vh;
+    width: 60vw;
+    height: 4em;
     left: 5vh;
     font-family: 'Open Sans';
     font-style: normal;
@@ -69,13 +77,15 @@ body {
     line-height: 100px;
     /* or 104% */
     display: flex;
+    justify-content: end;
+    flex-direction: column;
     align-items: center;
     letter-spacing: -0.96px;
     color: #FFFFFF;
 }
 
 #container h3{
-    height: 20vh;
+    height: 1em;
     left: 5vh;
     right: 346.69px;
     font-family: 'Open Sans';
@@ -86,23 +96,26 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: -0.32px;
+    width: 20em;
     color: #8B949E;
+    margin-bottom: 20vh;
 }
 #container a{
+    margin-top: 20%;
     padding: 10px 20px;
     font-size: 2em;
     text-decoration: none;
     background-color: #30363D;
     color: #FFFFFF;
     border-radius: 20px;
-    margin-left: 20%;
+    margin-left: 0;
 }
 
 #line1 {
     position: relative;
     width: 0px;
-    height: 10vh;
-    top: -30%;
+    height: 7vh;
+    top: -40%;
     left: -40%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(360deg);
@@ -150,7 +163,7 @@ body {
 }
 /* Lorem ipsum dolor sit amet. consectetur adipiscing elit. Praesent imperdiet ante tortor, sit amet mollis erat placerat suscipit. Nulla lobortis et libero sit amet congue. */
 #abou1 h5 { 
-    width: 70vw;
+    width: 60vw;
     height: 20vh;
     left: 50vh;
     font-family: 'Open Sans';
@@ -169,7 +182,7 @@ body {
 
     box-sizing: border-box;
     width: 50vw;
-    height: 40vh;
+    height: 50vh;
     left: 20%;
     margin-left: 20%;
     background: #161B22;
@@ -198,13 +211,14 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: -10em;
+    margin-top: -5em;
 }
 #flame h5{
-    width: 40vw;
     text-align: justify;
-    margin: 4%;
+    margin: 20%;
     height: 338px;
     left: 2vw;
     font-family: 'Open Sans';
@@ -218,13 +232,53 @@ body {
     color: #FFFFFF;
 
 }
-#project {
+
+#mid2{
+    margin-left: 8%;
+    width: 3px;
+    top: -20%;
+    bottom: 24px;
+    background: linear-gradient(180deg, #56D364 0%, #2EA043 50%, #0D1117 100%);
+}
+#about2{
     position: relative;
+    top: -20%;
+}
+#about2 #img {
+    position: absolute;
+    top: -70%;
+    bottom: 20%;
+    left: 40%;
+ }
+
+#tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tools i{
+    font-size: 2em;
+    margin: 1em;
+}
+.fa-html5{
+    color: orange;
+}
+.fa-css3, .fa-react, .fa-code-fork{
+    color: lightblue;
+}
+.fa-node-js{
+    color: goldenrod;
+}
+ .fa-database{
+    color: greenyellow;
+}
+#project {
     margin-top: 10em;
     width: 80vw;
     background: #161B22;
     height: 60vh;
     margin: auto;  
+    margin-top: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,6 +323,7 @@ body {
     border-radius: 20px;  
 }
 
+
 #cont3{
     margin-top: 8%;
     margin-left: 7vh;
@@ -289,6 +344,7 @@ body {
     height: 80vh;
     margin-left: 4%;  
     display: flex;
+    text-align: justify;
     justify-content: center;
     align-items: center;
     flex-direction: column;  
@@ -315,6 +371,7 @@ body {
     align-items: center;
     flex-direction: column;  
     border-radius: 20px; 
+    text-align: justify;
 }
 #img3, #img4{
     place-self: center;
@@ -327,7 +384,7 @@ body {
     align-items: center;
     flex-direction: column;  
     border-radius: 20px;
-}
+} 
 #cont2 a, #cont3 a{
     text-align: center;
     text-decoration: none;
@@ -366,7 +423,11 @@ body {
     margin: 10px;
     border-radius: 40px;
 }
-
+#alive, #alive2{
+    height: 32vh;
+    width: 24vw;
+    border-radius: 1em;
+}
 
 #maxcon{
     display: flex;
@@ -404,5 +465,200 @@ body {
     border-radius: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
+
+
+@media only screen and (max-width: 440px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans';
+        overflow-x: hidden;
+    }
+    #hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    #right{
+        display: none;
+    }
+    .fa-bars{
+        display: flex;
+    }
+    h1 img{
+        width: 2em;
+        height: 2em;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #sam23 {
+        position: relative;
+        top: -35%;
+        bottom: 20%;
+        left: 10%;
+        width: 8em;
+        height: 5em;
+    }
+    #sam111{
+        display: none;
+    }
+    #line1{
+        display: none;
+    }
+    #container a{
+        font-size: 0.8em;
+        
+    }
+    #container h1{
+        font-size: 1.2em;
+        height: 1em;
+        margin-top: 10vh;
+        width: 100%;
+    }
+    #container h3{
+        font-size: 0.8em;
+
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #line2{
+        display: none;
+    }
+    #about{
+        width: 100%;
+    }
+    #abou1 h1{
+        font-size: 2em;
+    }
+    #abou1 h5{
+        font-size: 1em;
+    }
+
+    #sample1{
+        font-size: 0.7em;
+        text-align: start;
+        margin: 5%;
+        padding: 5%;
+        width: 70%;
+        height: 40vh;
+    }
+    #flame{
+        width: 60%;
+        height: 40vh;
+        margin-top: -20%;
+        margin-left: -20%;
+    }
+
+    #flame h5{
+        font-size: 0.8em;
+        text-align: justify;
+        padding: 5%;
+    }
+
+    #mid2{
+        display: none;
+    }
+    #about2 img{
+        display: none;
+    }
+    #tools i{
+        margin: 0.3em;
+        font-size: 0.8em;
+    }
+    #project{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 10em;
+        margin: 10%;
+    }
+    #project h3{
+        font-size: 0.7em;
+    }
+    #project h1{
+        font-size: 1.3em;
+    }
+    #gme{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    #cont2, #content, #content2, #cont3{
+        width: 60vw;
+        margin: auto;
+        height: 40vh;
+        margin-bottom: 20px;
+    }
+
+    #img3 img, #img4 img{
+        width: 60vw;
+        height: 40vh;
+        border-radius: 20px;
+    }
+    #img4{
+        margin: auto;
+    }
+    #content h1, #content2 h1{
+        font-size: 1.5em;
+    }
+    #content p, #content2 p{
+        font-size: 0.7em;
+    }
+    #maxcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+    }
+    #contact h4{
+        font-size: 0.7em;
+        margin: auto;
+    }
+    #link{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40vh;
+    }
+    #footer{
+        display: flex;
+        width: 100%;
+    }
+    #footer img{
+        width: auto;
+        height: auto;
+    }
+}
+
+
 
 

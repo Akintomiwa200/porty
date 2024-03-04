@@ -2,7 +2,7 @@
 <rect width="3" height="749" fill="url(#paint0_linear_0_357)"/>
 <defs>
 <linearGradient id="paint0_linear_0_357" x1="1.5" y1="0" x2="1.5" y2="749" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0D1117"/>
+<stop stop-color="#0D1117">
 <stop offset="0.333333" stop-color="#EA6045"/>
 <stop offset="0.666667" stop-color="#EA6045"/>
 <stop offset="1" stop-color="#0D1117"/>
